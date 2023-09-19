@@ -6,9 +6,9 @@ from typing import Union, List, Any
 from pydantic import BaseModel
 from spacy.matcher import PhraseMatcher
 
-from rake_nltk import Rake
 
-nlp = spacy.load("en_core_web_lg")
+from rake_nltk import Rake
+nlp = spacy.load("en_core_web_sm")
 nlp.add_pipe("asent_en_v1")
 matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
 

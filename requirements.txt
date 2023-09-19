@@ -1,5 +1,6 @@
 asent==0.7.1
 fastapi==0.95.0
-pydantic==1.10.6
+pydantic == 1.10.10
 rake_nltk==1.0.6
 spacy==3.5.1
+uvicorn
